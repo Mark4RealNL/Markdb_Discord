@@ -59,4 +59,4 @@ client.on("message", async message =>{
         return message.channel.send(botEmbed);
     }});
 
-    bot.login(process.env.token);
+bot.login(process.env.token);
